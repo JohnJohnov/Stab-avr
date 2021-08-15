@@ -5,4 +5,6 @@
 
 В устройстве используется библиотека дисплея [ASOLED](https://github.com/NikolayDikiy/ASOLED)
 
+Начиная с версии 0.96 устройство поддерживает [**протокол передачи информационных и управляющих данных между стабилизатором мощности/напряжения/тока и управляющим устройством**](https://github.com/JohnJohnov/Stab-avr/blob/main/Protocol.md)
+***
 ![Схема устройства](https://github.com/JohnJohnov/Stab-avr/blob/main/Stab-avr_circuit.jpg "Схема устройства")
