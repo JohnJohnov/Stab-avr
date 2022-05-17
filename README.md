@@ -10,4 +10,4 @@
 Начиная с версии **0.97** устройство поддерживает протоколы **РМВ-К UART** и **Samovar**
 
 ***
-![Схема устройства](https://github.com/JohnJohnov/Stab-avr/blob/main/Stab-avr_circuit.jpg "Схема устройства")
+![Схема устройства](https://github.com/JohnJohnov/Stab-avr/blob/main/Stab-avr_circuit.png "Схема устройства")
