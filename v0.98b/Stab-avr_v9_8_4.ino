@@ -332,7 +332,7 @@ byte X_position (const byte x, const uint16_t arg = 0, const byte pix = 6); // �
 byte X_centred (const byte len);    // Функция возвращает начальную позицию по Х для текста длинной len знаков, для размещения оного по центру дисплея.
 byte A_to_HEX (const char a);       // Функция переводит символ ASCII в шестнадцатиричную цифру
 char HEX_to_A (const byte x);       // Функция переводит шестнадцатиричную цифру в символ ASCII
-uint16_t calc_proportion(const uint16_t multiplier1, const uint16_t multiplier2 = Pnom, const uint16_t divider = CICLE);
+uint16_t calc_proportion(const uint16_t multiplier1, const uint16_t multiplier2 = Pnom, const uint32_t divider = CICLE);
 //
 //
 //==============================================================================
@@ -415,7 +415,7 @@ void set_Pust(void) {
 //== multiplier2 - второй множитель (по умолчанию Pnom)
 //== divider - делитель (по умолчанию CICLE)
 //
-uint16_t calc_proportion(const uint16_t multiplier1, const uint16_t multiplier2, const uint16_t divider) {
+uint16_t calc_proportion(const uint16_t multiplier1, const uint16_t multiplier2, const uint32_t divider) {
   uint32_t p;
   p = (long)multiplier1 * 2;
   p *= (long)multiplier2;
